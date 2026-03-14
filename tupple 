@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+// Define a tuple-like structure
+struct Tuple {
+    int id;
+    float marks;
+    char grade;
+};
+
+int main() {
+    struct Tuple t1;
+
+    // Assign values
+    t1.id = 101;
+    t1.marks = 85.5;
+    t1.grade = 'A';
+
+    // Print values
+    printf("ID: %d\n", t1.id);
+    printf("Marks: %.2f\n", t1.marks);
+    printf("Grade: %c\n", t1.grade);
+
+    return 0;
+}
